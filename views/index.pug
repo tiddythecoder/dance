@@ -1,0 +1,74 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title PLAYDEAD
+        style
+            include ../static/style.css 
+        <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    body
+        nav#navbar 
+
+            ul  
+                div#logo
+                    <img src="../static/dance_logo_2.png">
+                //- li <img src="../static/dance_logo.jpg">
+                li #[a(href="/") HOME]
+                li #[a(href="/" ) ABOUT US]
+                li #[a(href="/") SERVICES]
+                li #[a(href="/") CONTACT US]
+
+        section#introSection
+            //- | section for picture
+            //- <img src="../static/bg1.jpg">
+            h2 LETS
+
+        section#missionSection 
+            h2 Our mission
+            div.cardContainer
+                 div.card
+                    h2 This is para 1
+                    div.card-box
+                         div.cardimg
+                                img(src="/static/card_2.jpg")
+                         div.card-content
+                                p Lorem ipsum dolor sit amet.
+                 div.card
+                    h2 This is para 1
+                    div.card-box
+                         div.cardimg
+                                img(src="/static/card_1.jpg")
+                         div.card-content
+                                p Lorem ipsum dolor sit amet.
+
+                 div.card
+                    h2  This is para 1
+                    div.card-box
+                         div.cardimg
+                                img(src="/static/card_3.jpg")
+                         div.card-content
+                                p Lorem ipsum dolor sit amet.
+
+        section#sponsorsSection 
+            h2 section for sponsors
+            div.sponsor_logo_container
+                div.sponsorlogo
+                    <img src="../static/logo1.png">
+                div.sponsorlogo
+                    <img src="../static/logo2.png">
+                div.sponsorlogo
+                    <img src="../static/logo3.png">
+                div.sponsorlogo
+                    <img src="../static/logo4.png">
+                   
+                  
+        
+        footer#footer 
+            p &copy copyright 2023-2024 PLAYDEAD.com | All rights reserved
+        //- h1 PLAYDEAD RELEASE THE F*****G GAME
+        script 
+             include ../static/index.js

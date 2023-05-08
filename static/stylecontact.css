@@ -1,0 +1,48 @@
+.myForm{
+    border:2px solid red;
+    display:flex;
+    flex-direction:column;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.myForm input{
+    width:50vw;
+    /* text-align: center; */
+    font-size: 2vw;
+    height:3.5vw;
+    margin:0.5vw;
+    border:0.3vw solid black;
+    border-radius: 1vw;
+}
+h1{
+    font-size:3.5vw;
+    text-align:center;
+    margin-top: 2vw;
+    position: relative;
+    top:-1vw;
+}
+
+#address{
+    width:50vw;
+    /* height:15vw; */
+    font-size: 2vw;
+    border:0.3vw solid black;
+    border-radius: 1vw;
+    color: #000;
+    margin:0.8vw;
+    
+}
+
+.btn{
+    width:10vw;
+    margin:1vw;
+    border:0.3vw solid rgb(0, 0, 0);
+    background-color: black;
+    color:white;
+    border-radius:1vw;
+    font-size: 2vw;
+    cursor: pointer;
+    height:3vw;
+}

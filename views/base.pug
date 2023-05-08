@@ -1,0 +1,28 @@
+//- ye bas template hai isko hum "home.pug" se bharenge
+//- asse samjho ki ye momo k maide ki layer hai iska masal filling "home.pug" me hoga
+
+
+doctype html
+html
+  head
+    title PLAYDEAD
+    block scripts
+    block style 
+  
+  body
+    nav#navbar 
+        ul  
+            div#logo
+                <img src="../static/dance_logo_2.png">
+                //- li <img src="../static/dance_logo.jpg">
+            li #[a(href="/") HOME]
+            li #[a(href="/" ) ABOUT US]
+            li #[a(href="/") SERVICES]
+            li #[a(href="/contact") CONTACT US]
+
+    //- section#introSection
+    //-     h2 LETS
+
+    block content
+    #footer
+          p &copy copyright 2023-2024 PLAYDEAD.com | All rights reserved

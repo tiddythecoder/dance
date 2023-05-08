@@ -1,0 +1,64 @@
+extends base.pug  
+
+block scripts
+    script(src='../static/index.js')
+
+block style
+    style  
+        include ../static/style.css
+   
+        
+
+block content
+        //- nav#navbar 
+ 
+        //-     ul  
+        //-         div#logo
+        //-             <img src="../static/dance_logo_2.png">
+        //-         //- li <img src="../static/dance_logo.jpg">
+        //-         li #[a(href="/") HOME]
+        //-         li #[a(href="/" ) ABOUT US]
+        //-         li #[a(href="/") SERVICES]
+        //-         li #[a(href="/") CONTACT US]
+
+        section#introSection
+            h2 LETS
+
+        section#missionSection 
+            h2 Our mission
+            div.cardContainer
+                 div.card
+                    h2 This is para 1
+                    div.card-box
+                         div.cardimg
+                                img(src="/static/card_2.jpg")
+                         div.card-content
+                                p Lorem ipsum dolor sit amet.
+                 div.card
+                    h2 This is para 1
+                    div.card-box
+                         div.cardimg
+                                img(src="/static/card_1.jpg")
+                         div.card-content
+                                p Lorem ipsum dolor sit amet.
+
+                 div.card
+                    h2  This is para 1
+                    div.card-box
+                         div.cardimg
+                                img(src="/static/card_3.jpg")
+                         div.card-content
+                                p Lorem ipsum dolor sit amet.
+
+        section#sponsorsSection 
+            h2 section for sponsors
+            div.sponsor_logo_container
+                div.sponsorlogo
+                    <img src="../static/logo1.png">
+                div.sponsorlogo
+                    <img src="../static/logo2.png">
+                div.sponsorlogo
+                    <img src="../static/logo3.png">
+                div.sponsorlogo
+                    <img src="../static/logo4.png">
+                
